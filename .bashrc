@@ -116,3 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
